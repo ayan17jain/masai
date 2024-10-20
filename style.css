@@ -1,0 +1,249 @@
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px 20px;
+}
+
+.titles {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Styling the menu items as a horizontal menu */
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Adding hover effect to menu items */
+.menu li:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content{
+    text-align: center;
+    
+    
+}
+
+.hd2{
+    line-height: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.hd1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.blue-text{
+    color: blue;
+}
+
+.form1 {
+    display: flex;
+    align-items: center; /* Align input and button vertically */
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    
+    
+}
+
+.btn1{
+
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+        
+    }
+
+    .video {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;     /* Centers vertically */
+        height: 100vh;           /* Full viewport height for vertical centering */
+    }
+
+
+    .hd3{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr); /* 6 columns */
+        grid-template-rows: repeat(3, auto);   /* 3 rows */
+        gap: 10px; /* Space between grid items */
+        max-width: 100%; /* Ensure it fits within the viewport */
+        
+    }
+
+    /* Styling each image */
+    .image-grid img {
+        width: 50%;
+        height: auto;
+        display: block;
+        padding: 30px;
+        
+        
+    }
+
+    .grid-container {
+        border: 2px solid lightgray; /* Border around the entire grid */
+        border-radius: 5px;          /* Optional: rounded corners for the border */
+        padding: 10px;               /* Optional: space between the border and the images */
+        max-width: 100%;             /* Ensure it fits within the viewport */
+        
+        margin: auto;                /* Center the grid horizontally */
+    }
+
+
+    .pre-p1{
+        font-size: 24px;
+        
+        
+    }
+
+    .img-hd1 {
+            display: flex;               /* Use Flexbox for layout */
+            justify-content: space-between; /* Distribute space between items */
+            align-items: center;        /* Align items vertically in the center */
+            margin-right: 50px;         /* Slight margin to the right for spacing */
+            padding: 20px;              /* Optional: adds padding for better visual appearance */
+        }
+
+    .image1{
+        float: left;
+        display: inline;
+    }
+
+
+    .footer {
+        border: 2px solid lightgray; /* Light border around the footer */
+        padding: 20px;               /* Padding inside the footer */
+        margin-top: 20px;           /* Space above the footer */
+        width: 100%;                  /* Adjust width as needed */
+        max-width: 900px;           /* Maximum width for larger screens */
+        margin-left: auto;          /* Center footer in the container */
+        margin-right: auto;         /* Center footer in the container */
+        background-color: #df9220;
+        z-index: 0;
+    }
+    
+
+    .para1 {
+        text-align: right;           /* Align text to the left */
+        margin: 0;                  /* Remove default margin */
+        font-size: 20px;
+    }
+
+    .form2 {
+        display: flex;
+        align-items: center; /* Align input and button vertically */
+        justify-content: center;
+        gap: 10px;
+        border-radius: 5px;
+        
+        
+        
+    }
+
+    .btn2{
+
+        padding: 10px 20px;
+        background-color: blue;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+        
+    }
+
+    .cont{
+        margin-left: 550px;
+    }
+
+    .footer h1{
+        font-size: 40px;
+    }
+
+
+    footer {
+        background-color: #111111;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .column {
+        flex: 1;
+        margin-bottom: 20px;
+    }
+    
+    h4 {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        margin-bottom: 5px;
+    }
+    
+    .copyright {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .social-icons {
+        margin-top: 10px;
+    }
+    
+    .social-icons a {
+        color: #fff;
+        margin-right: 10px;
+    }
+
+    
